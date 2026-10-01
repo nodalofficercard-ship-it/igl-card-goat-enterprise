@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IGL–CARD Community Goat Enterprise · Lakhimpur Kheri</title>
+<meta name="description" content="CSR proposal: collective scientific shed-based goat rearing for 120 marginalized families in Lakhimpur Kheri. Submitted by CARD to Indraprastha Gas Limited.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,620&family=Outfit:wght@360;480;580&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #17241c;
+    --muted: #5c6a60;
+    --paper: #f4efe6;
+    --card: #fbf8f2;
+    --forest: #1c4633;
+    --forest-2: #2d6a4c;
+    --clay: #b85c2c;
+    --gold: #c4a15a;
+    --line: #e2d8c8;
+    --shadow: 0 18px 40px rgba(23, 36, 28, 0.08);
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    color: var(--ink);
+    background:
+      radial-gradient(900px 420px at 90% -10%, rgba(196, 161, 90, 0.18), transparent 60%),
+      var(--paper);
+    font-family: Outfit, sans-serif;
+    font-weight: 360;
+    line-height: 1.55;
+  }
+  a { color: inherit; }
+  nav {
+    position: sticky; top: 0; z-index: 20;
+    display: flex; justify-content: space-between; align-items: center; gap: 16px;
+    padding: 14px 6vw;
+    background: rgba(244, 239, 230, 0.92);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--line);
+  }
+  .brand { font-family: Fraunces, serif; font-weight: 620; letter-spacing: -0.02em; }
+  .brand small { display: block; font-family: Outfit, sans-serif; font-weight: 480; letter-spacing: 0.14em; font-size: 10px; color: var(--clay); text-transform: uppercase; }
+  nav ul { display: flex; gap: 18px; list-style: none; margin: 0; padding: 0; font-size: 14px; }
+  nav a { text-decoration: none; color: var(--muted); }
+  nav a:hover { color: var(--ink); }
+  .hero { display: grid; grid-template-columns: 1.3fr 0.7fr; gap: 36px; padding: 64px 6vw 40px; align-items: end; }
+  .kicker { letter-spacing: 0.16em; text-transform: uppercase; font-size: 12px; color: var(--clay); font-weight: 580; margin: 0 0 12px; }
+  h1 { font-family: Fraunces, serif; font-weight: 620; font-size: clamp(36px, 5vw, 64px); line-height: 0.98; letter-spacing: -0.03em; margin: 0 0 16px; }
+  .lede { font-size: 18px; max-width: 640px; color: #314038; }
+  .meta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px; }
+  .pill { border: 1px solid var(--line); background: var(--card); border-radius: 999px; padding: 7px 12px; font-size: 13px; }
+  .panel {
+    background: var(--forest); color: #f6f1e7; border-radius: 22px; padding: 24px;
+    box-shadow: var(--shadow);
+  }
+  .panel span { display: block; font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: #d7c39a; }
+  .panel strong { font-family: Fraunces, serif; font-size: 34px; font-weight: 620; display: block; margin: 4px 0 12px; }
+  .panel p { margin: 0; color: #e7dfd2; }
+  section { padding: 28px 6vw 10px; }
+  h2 { font-family: Fraunces, serif; font-size: 34px; margin: 0 0 8px; letter-spacing: -0.03em; }
+  .sub { color: var(--muted); max-width: 720px; margin: 0 0 18px; }
+  .grid { display: grid; gap: 14px; }
+  .g4 { grid-template-columns: repeat(4, 1fr); }
+  .g3 { grid-template-columns: repeat(3, 1fr); }
+  .g2 { grid-template-columns: 1fr 1fr; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 18px; }
+  .card b { display: block; font-family: Fraunces, serif; font-size: 28px; font-weight: 620; letter-spacing: -0.03em; }
+  .card em { font-style: normal; color: var(--clay); font-size: 13px; font-weight: 580; letter-spacing: 0.04em; text-transform: uppercase; }
+  table { width: 100%; border-collapse: collapse; background: var(--card); border-radius: 16px; overflow: hidden; font-size: 14.5px; }
+  th, td { text-align: left; padding: 11px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { background: #efe7d8; font-weight: 580; font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; }
+  .compare td:first-child { width: 28%; font-weight: 580; }
+  .ok { color: var(--forest-2); font-weight: 580; }
+  .timeline { display: grid; grid-template-columns: repeat(7, 1fr); gap: 10px; }
+  .ms { background: var(--card); border-top: 4px solid var(--gold); border-radius: 14px; padding: 12px; min-height: 150px; }
+  .ms strong { display: block; font-size: 13px; color: var(--clay); }
+  .phase { display: flex; gap: 12px; align-items: baseline; }
+  .phase i { font-style: normal; font-family: Fraunces, serif; font-size: 28px; color: var(--forest); }
+  footer { margin-top: 36px; padding: 28px 6vw 40px; background: var(--ink); color: #efe8dc; }
+  footer a { color: #f0d7b0; }
+  .note { font-size: 13px; color: var(--muted); }
+  @media (max-width: 900px) {
+    nav ul { display: none; }
+    .hero, .g4, .g3, .g2, .timeline { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<nav>
+  <div class="brand">IGL–CARD<small>Community Goat Enterprise</small></div>
+  <ul>
+    <li><a href="#model">Model</a></li>
+    <li><a href="#plan">Plan</a></li>
+    <li><a href="#income">Income</a></li>
+    <li><a href="#budget">Budget</a></li>
+    <li><a href="#why">Why IGL</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<header class="hero">
+  <div>
+    <p class="kicker">CSR project proposal · submitted 12 April 2026</p>
+    <h1>Families already own the goats. This project builds the enterprise around them.</h1>
+    <p class="lede">A 24-month collective, shed-based goat enterprise for 120 marginalized families in Lakhimpur Kheri. CARD implements. IGL funds infrastructure, veterinary care, the FPO, licences and market access. No goat procurement.</p>
+    <div class="meta">
+      <span class="pill">July 2026 – June 2028</span>
+      <span class="pill">Nighasan · Pallia · Gola Gokaran Nath · Mohammadi</span>
+      <span class="pill">Submitted to IGL CSR</span>
+    </div>
+  </div>
+  <aside class="panel">
+    <span>Budget requested</span>
+    <strong>₹58 lakh</strong>
+    <p>100% IGL. Funds go to four scientific sheds, care, training, FPO formation, branding and ONDC — not to buying animals the families already keep.</p>
+  </aside>
+</header>
+
+<section>
+  <div class="grid g4">
+    <article class="card"><em>Families</em><b>120</b>Women SHG members, SC/ST, BPL, landless and women-headed households. About 600 people.</article>
+    <article class="card"><em>Existing goats</em><b>240</b>Two per family, brought into four common sheds. Health-checked before entry.</article>
+    <article class="card"><em>Survival target</em><b>>92%</b>From a current 70–80%, through housing, vaccination and monthly camps.</article>
+    <article class="card"><em>Income target</em><b>₹25–35k</b>Additional annual income per family by month 24, on the proposal’s stated range.</article>
+  </div>
+</section>
+
+<section id="model">
+  <h2>What changes</h2>
+  <p class="sub">The intervention is housing, health, feed and a market — not a new herd. Families contribute their goats and daily labour. Profit is shared quarterly after costs.</p>
+  <table class="compare">
+    <thead><tr><th>Today</th><th>With IGL–CARD</th></tr></thead>
+    <tbody>
+      <tr><td>Open ground, jhuggis, goats tied to trees</td><td class="ok">Four scientific common sheds</td></tr>
+      <tr><td>Mortality 20–30%</td><td class="ok">Central veterinary care, target under 8%</td></tr>
+      <tr><td>Grazing only</td><td class="ok">Starter feed and fodder plots</td></tr>
+      <tr><td>Local middlemen take 30–40%</td><td class="ok">FPO sales and ONDC, aimed at 20–30% better price</td></tr>
+      <tr><td>Women do the work, rarely own the decision</td><td class="ok">Target: more than 80% women on the FPO board</td></tr>
+      <tr><td>No processing or brand</td><td class="ok">FSSAI, trade licence, GST, branded cuts, milk and manure</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>Why Lakhimpur Kheri</h2>
+  <p class="sub">Largest district in Uttar Pradesh, Terai, Nepal border. Goat keeping is already widespread among landless and women-headed homes, and still stuck at subsistence.</p>
+  <div class="grid g3">
+    <article class="card"><em>Population</em><b>~40 lakh</b>88.5% rural. Literacy 60.56%.</article>
+    <article class="card"><em>Goat population</em><b>3.19 lakh+</b>Main work is farming and animal husbandry.</article>
+    <article class="card"><em>Risk</em><b>Flood</b>Sharda, Gomti, Ghaghra and Sarayan. Sheds are the climate buffer.</article>
+  </div>
+</section>
+
+<section id="plan">
+  <h2>24 months, three phases</h2>
+  <div class="grid g3">
+    <article class="card"><div class="phase"><i>01</i><h3>Prepare</h3></div><p>Months 1–4. Select 120 families, health-check goats, identify four cluster sites, build sheds, register the producer company and open its bank account.</p></article>
+    <article class="card"><div class="phase"><i>02</i><h3>Start</h3></div><p>Months 5–9. Seven-day residential training, shift goats, vaccinate, insure all 240, issue starter feed, establish fodder plots, begin daily FPO management.</p></article>
+    <article class="card"><div class="phase"><i>03</i><h3>Sell</h3></div><p>Months 10–24. Monthly camps, quarterly payouts, FSSAI, trade, ONDC and GST, brand and QR tags, then hand the enterprise to the FPO.</p></article>
+  </div>
+</section>
+
+<section>
+  <h2>Milestones</h2>
+  <div class="timeline">
+    <article class="ms"><strong>M1 · Oct 2026</strong>Sheds ready. FPO registered.</article>
+    <article class="ms"><strong>M2 · Jan 2027</strong>All goats in sheds. Daily management live.</article>
+    <article class="ms"><strong>M3 · Apr 2027</strong>First kids. First local sales.</article>
+    <article class="ms"><strong>M4 · Jun 2027</strong>First quarterly profit to 120 families.</article>
+    <article class="ms"><strong>M5 · Nov 2027</strong>FSSAI, trade, ONDC and GST in hand.</article>
+    <article class="ms"><strong>M6 · Jan 2028</strong>Brand and QR traceability live.</article>
+    <article class="ms"><strong>M7 · Jun 2028</strong>Handover. FPO runs the enterprise.</article>
+  </div>
+</section>
+
+<section id="income">
+  <h2>Income path per family</h2>
+  <p class="sub">Baseline in the proposal is ₹13,000–15,000 a year from two goats. The working projection at steady state is about ₹30,000 net, inside the stated ₹25,000–35,000 target. Figures below are the proposal’s own estimates, not an independent audit.</p>
+  <table>
+    <thead><tr><th></th><th>Now</th><th>With support</th></tr></thead>
+    <tbody>
+      <tr><td>Kids born per family / year</td><td>3</td><td>4</td></tr>
+      <tr><td>Survival</td><td>70%</td><td>92%</td></tr>
+      <tr><td>Kids surviving</td><td>2.1</td><td>3.7</td></tr>
+      <tr><td>Sale price per kid</td><td>₹6,500</td><td>₹8,500</td></tr>
+      <tr><td>Net annual income</td><td>₹14,000</td><td>₹30,000</td></tr>
+    </tbody>
+  </table>
+  <p class="note">Steady-state build-up in the proposal: kids ₹21,000, culled goat ₹8,000, surplus milk ₹5,000, manure ₹2,000, less ₹6,000 FPO costs. Community total moves from ₹16.8 lakh to ₹36 lakh a year. Five per cent of profit stays in a revolving fund.</p>
+</section>
+
+<section id="budget">
+  <h2>Budget · ₹58,00,000</h2>
+  <table>
+    <thead><tr><th>Head</th><th>Year 1</th><th>Year 2</th><th>Total</th></tr></thead>
+    <tbody>
+      <tr><td>Programme, including sheds, feed, vet, FPO, licences</td><td>30,00,000</td><td>15,00,000</td><td>45,00,000</td></tr>
+      <tr><td>Staff — lead, four coordinators, part-time manager</td><td>3,50,000</td><td>2,50,000</td><td>6,00,000</td></tr>
+      <tr><td>Training</td><td>3,00,000</td><td>1,00,000</td><td>4,00,000</td></tr>
+      <tr><td>Monitoring, third-party evaluation, dashboard</td><td>1,50,000</td><td>1,50,000</td><td>3,00,000</td></tr>
+      <tr><td>Admin and travel</td><td>1,00,000</td><td>1,00,000</td><td>2,00,000</td></tr>
+      <tr><td>Contingency</td><td>1,50,000</td><td>1,50,000</td><td>3,00,000</td></tr>
+      <tr><td><b>Total</b></td><td><b>40,50,000</b></td><td><b>17,50,000</b></td><td><b>58,00,000</b></td></tr>
+    </tbody>
+  </table>
+  <p class="note">Largest single item: four sheds at ₹3 lakh each, ₹12 lakh. Goat purchase line is zero.</p>
+</section>
+
+<section>
+  <h2>Who implements</h2>
+  <p class="sub">CARD, Lucknow. Registered society, 12A and 80G, CSR-1, PAN and GST. Twenty-five years, with goat training at B. Sahar and Bakshi ka Talab, and a 2019 seminar at BAMETI, Patna.</p>
+  <div class="grid g2">
+    <article class="card"><em>Governance</em><p>Arindam Singh Roy, Executive Director — strategy and IGL liaison. M.S. Khan — training and animal-husbandry linkage. Shobhit Shrivastava — district and panchayat coordination.</p></article>
+    <article class="card"><em>Field</em><p>Mohd Shakeel, field project lead, and four cluster coordinators to be deployed within 30 days of sanction. Dr Isha Pandey on compliance and licences. Anil Kumar on the IGL dashboard and QR system.</p></article>
+  </div>
+</section>
+
+<section id="why">
+  <h2>Why this is fundable</h2>
+  <div class="grid g3">
+    <article class="card"><em>Capital stays useful</em><p>Sheds are permanent. The proposal puts their life at 10+ years. Families already own the productive asset.</p></article>
+    <article class="card"><em>Exit is designed</em><p>Month 24 the FPO owns operations. Convergence lined up with Animal Husbandry, NABARD, SFAC and the PM FPO scheme.</p></article>
+    <article class="card"><em>Visible for IGL</em><p>Shed boards, pack branding and QR pages carry IGL CSR. Quarterly finance and photo reports, plus a live dashboard.</p></article>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p class="sub">Centre for Agriculture and Rural Development (CARD), Lucknow. Field project lead: Mohd Shakeel. For a discussion, field visit or presentation, contact the CARD nodal office.</p>
+</section>
+
+<footer>
+  <p>IGL–CARD Community Goat Enterprise · Lakhimpur Kheri · Proposal dated 12 April 2026</p>
+  <p>Source figures are from the CARD submission to Indraprastha Gas Limited. This page is a public reading version of that proposal.</p>
+</footer>
+</body>
+</html>
